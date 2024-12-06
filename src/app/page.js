@@ -152,12 +152,21 @@ const Container = styled.div`
   border-radius: 30px;
   align-items: center;
   justify-items: center;
+
+  // Media query for mobile devices
+  @media (max-width: 768px) {
+    display: block;
+    padding: 20px;
+  }
 `;
 
 const LogoSection = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media (max-width: 768px) {
+    margin-bottom: 1rem;
+  }
 `;
 
 const Logo = styled.div`
